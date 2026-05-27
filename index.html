@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Escolar - Login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Acesso ao Sistema</h2>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" required placeholder="seu-email@escola.com">
+            </div>
+            
+            <div class="input-group">
+                <label for="password">Senha</label>
+                <input type="password" id="password" required placeholder="••••••••">
+            </div>
+
+            <div class="input-group">
+                <label for="userType">Tipo de Usuário</label>
+                <select id="userType" required>
+                    <option value="" disabled selected hidden>Selecione seu perfil...</option>
+                    <option value="professor">Professor</option>
+                    <option value="aluno">Aluno</option>
+                </select>
+            </div>
+
+            <button type="submit">Entrar</button>
+            <p id="errorMessage" class="error-msg"></p>
+        </form>
+    </div>
+
+    <script src="js/auth.js"></script>
+</body>
+</html>
