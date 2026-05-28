@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Escolar - Aluno</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <div class="dashboard-layout">
+        <aside class="sidebar">
+            <div class="sidebar-brand">
+                <h3>Portal Aluno</h3>
+            </div>
+            <ul class="sidebar-menu">
+                <li class="active"><a href="#">Início / Notas</a></li>
+                <li><a href="#">Minhas Turmas</a></li>
+                <li><a href="#">Boletim</a></li>
+                <li><a href="#">Horários</a></li>
+            </ul>
+            <div class="sidebar-footer">
+                <button class="btn-submit btn-logout" onclick="window.location.href='index.html'">Sair</button>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header class="main-header">
+                <div>
+                    <h2>Olá, Antonio Silva!</h2>
+                    <p class="login-subtitle">Acompanhe seu desempenho acadêmico.</p>
+                </div>
+                <div class="user-profile-info">
+                    <p class="user-name">Antonio Silva</p>
+                    <span class="user-role">Aluno</span>
+                </div>
+            </header>
+
+            <section class="metrics-grid">
+                <div class="metric-card">
+                    <h4>Média Geral</h4>
+                    <p class="metric-value">8.5</p>
+                </div>
+                <div class="metric-card">
+                    <h4>Frequência</h4>
+                    <p class="metric-value">92%</p>
+                </div>
+                <div class="metric-card">
+                    <h4>Tarefas Pendentes</h4>
+                    <p class="metric-value">2</p>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h3>Próximas Atividades / Provas</h3>
+                <p class="login-subtitle">Nenhuma prova agendada para esta semana.</p>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
