@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Escolar - Professor</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <div class="dashboard-layout">
+        <aside class="sidebar">
+            <div class="sidebar-brand">
+                <h3>Portal Professor</h3>
+            </div>
+            <ul class="sidebar-menu">
+                <li class="active"><a href="#">Minhas Turmas</a></li>
+                <li><a href="#">Lançar Notas</a></li>
+                <li><a href="#">Chamada</a></li>
+                <li><a href="#">Planos de Aula</a></li>
+            </ul>
+            <div class="sidebar-footer">
+                <button class="btn-submit btn-logout" onclick="window.location.href='index.html'">Sair</button>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header class="main-header">
+                <div>
+                    <h2>Olá, Prof. Cláudio!</h2>
+                    <p class="login-subtitle">Gerencie suas turmas e diários de classe.</p>
+                </div>
+                <div class="user-profile-info">
+                    <p class="user-name">Professor Cláudio</p>
+                    <span class="user-role">Professor</span>
+                </div>
+            </header>
+
+            <section class="metrics-grid">
+                <div class="metric-card">
+                    <h4>Total de Turmas</h4>
+                    <p class="metric-value">4</p>
+                </div>
+                <div class="metric-card">
+                    <h4>Alunos Atendidos</h4>
+                    <p class="metric-value">120</p>
+                </div>
+                <div class="metric-card">
+                    <h4>Diários Pendentes</h4>
+                    <p class="metric-value">1</p>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h3>Turmas Ativas</h3>
+                <p class="login-subtitle">Selecione uma turma para lançar presenças ou avaliações.</p>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
